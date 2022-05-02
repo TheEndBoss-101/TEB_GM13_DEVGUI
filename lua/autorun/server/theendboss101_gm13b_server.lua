@@ -1,5 +1,7 @@
---[[
 if SERVER then
+    -- Workshop
+    resource.AddWorkshop("2553727051") -- GM13B
+    resource.AddWorkshop("2762511940") -- Mingebags
     -- Materials
     resource.AddFile("materials/theendboss101/cgm13bgui/arc.vmt");
     resource.AddFile("materials/theendboss101/cgm13bgui/arc.vtf");
@@ -28,4 +30,3 @@ if SERVER then
     -- Models
 
 end
---]]
