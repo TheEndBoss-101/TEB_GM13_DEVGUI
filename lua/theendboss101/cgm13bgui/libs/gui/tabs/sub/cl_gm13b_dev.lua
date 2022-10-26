@@ -1,4 +1,5 @@
-gm13_events_render_on = 0
+gm13_events_render_on = 0 --FIXME: Change!!!!!!!!!!!
+--THIS WAY SUCKS!
 gm13_events_show_names_on = 0
 
 function C_GM13B_GUI_Panel:Fill_GM13B_SubTab_Dev(GM13B_SubTab_Dev)

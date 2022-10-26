@@ -11,6 +11,7 @@ function C_GM13B_GUI_Panel:Fill_ARC_SubTab_Main(ARC_SubTab_Main)
   ARC_SubTab_Main_Label:DockMargin(0, 0, 0, 5)
   ARC_SubTab_Main_List:AddItem(ARC_SubTab_Main_Label)
  
+  -- Might not work.
   -- Cone Tier Slider
   local ConeTierSlider = vgui.Create("DNumSlider")
   ConeTierSlider:SetText("Edit Cone Tier")

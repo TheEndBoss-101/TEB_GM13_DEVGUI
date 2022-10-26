@@ -1,4 +1,5 @@
 if SERVER then
+    --TODO: Ask if right?
     -- Workshop
     resource.AddWorkshop("2553727051") -- GM13B
     resource.AddWorkshop("2762511940") -- Mingebags

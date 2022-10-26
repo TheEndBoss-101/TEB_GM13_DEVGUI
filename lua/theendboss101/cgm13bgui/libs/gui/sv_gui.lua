@@ -14,7 +14,7 @@ net.Receive("gm13_plr_setstatus", function()
    print("Receved.")
 end)
 
-net.Receive("gm13_start_mingebag_event", function(_, ply)
+net.Receive("gm13_start_mingebag_event", function(_, ply) --Broken i think
    if not ply:IsAdmin() and not ply:IsSuperAdmin() then return end
 
    local isLocalMinge = net.ReadString()
@@ -58,7 +58,6 @@ end
 
 net.Receive("gm13_toggle_devmode", function(_, ply)
    if not ply:IsAdmin() and not ply:IsSuperAdmin() then return end
-
    toggledevsrv()
 end)
 

@@ -41,7 +41,7 @@ function C_GM13B_GUI_Panel:CreateWindow()
    PropertySheet:AddSheet("About", About_Tab, "icon16/information.png", false, false, "Information")
    PropertySheet:AddSheet("gm13b", GM13B_Tab, "icon16/application.png", false, false, "gm_construct 13 beta")
 --   if file.Exists("addons/Anomaly-Research-Center-ARC", "GAME" ) then
-      PropertySheet:AddSheet("A.R.C.", ARC_Tab, "icon16/application_add.png", false, false, "Anomaly Research Center")
+      PropertySheet:AddSheet("A.R.C.", ARC_Tab, "icon16/application_add.png", false, false, "Anomaly Research Center") --Got added to gm13
 --   end
 end
 
