@@ -1,4 +1,4 @@
-TOOL.Category = "C_GM13B_GUI_DEV"
+TOOL.Category = "GM13 Tools"
 TOOL.Name = "#Tool.spawn_companion_doll.name"
 TOOL.Command = nil
 TOOL.ConfigName = ""

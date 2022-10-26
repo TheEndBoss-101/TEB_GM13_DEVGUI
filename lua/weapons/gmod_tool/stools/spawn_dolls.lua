@@ -1,5 +1,5 @@
 -- Rewrite
-TOOL.Category = "C_GM13B_GUI_DEV"
+TOOL.Category = "GM13 Tools"
 TOOL.Name = "#tool.spawn_dolls.name"
 TOOL.Command = nil
 TOOL.ConfigName = ""

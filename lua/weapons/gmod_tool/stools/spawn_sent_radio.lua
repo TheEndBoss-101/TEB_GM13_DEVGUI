@@ -1,4 +1,4 @@
-TOOL.Category = "C_GM13B_GUI"
+TOOL.Category = "GM13 Tools"
 TOOL.Name = "#Tool.spawn_sent_radio.name"
 TOOL.Command = nil
 TOOL.ConfigName = ""
